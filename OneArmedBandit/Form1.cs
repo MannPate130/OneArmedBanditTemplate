@@ -52,7 +52,7 @@ namespace OneArmedBandit
 
 
             // check value of reel 2 with a switch statement and set appropriate image
-             switch (reel2value) 
+            switch (reel2value) 
             {
                 case 1:
                     reel2.Image = OneArmedBandit.Properties.Resources._7_100x125;
@@ -66,7 +66,7 @@ namespace OneArmedBandit
             }
 
             // check value of reel 3 with a switch statement and set appropriate image
-             switch (reel3value) 
+            switch (reel3value) 
             {
                 case 1:
                     reel3.Image = OneArmedBandit.Properties.Resources._7_100x125;
@@ -98,23 +98,6 @@ namespace OneArmedBandit
                 scoreDisplay.Text = "0";
                 spinButton.Enabled = false;
             } 
-            
-
-            /// STOP HERE ----------------------------------------------------------
-            /// Test to make sure that your program will display random
-            /// images to each reel. Only continue on after you know this works
-            /// --------------------------------------------------------------------
-
-
-            // Use compound if statement to check if all reels are equal. 
-            // If yes show "winner" statement and add 3 to score.
-            // If no show "play again" statement and subtract 1 from score.         
-
-
-            // if score has reached 0 display "lose" message and set button enabled property to false
-
-
-            // display updated score
 
         }
     }
